@@ -1,5 +1,5 @@
 .problems-section {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 
 .problems-container {
@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .problems-container h2 {
   font-size: 3rem;
@@ -21,14 +22,13 @@
 }
 
 .problems-container p {
-  
   font-size: 1rem;
   color: var(--color-text-secondary);
   max-width: 50rem;
 }
 
-.problems-card-grid{
-     display: grid;
+.problems-card-grid {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
   width: 100%;

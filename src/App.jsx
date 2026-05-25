@@ -2,6 +2,7 @@
 import './App.css'
 import Hero from './components/Hero/Hero.jsx'
 import { Problems } from './components/Problems/Problems.jsx'
+import { Plans } from './components/Plans/Plans.jsx'
 function App() {
 
 
@@ -11,6 +12,7 @@ function App() {
 
       <Hero />
       <Problems />
+      <Plans />
 
      </div>
     </>

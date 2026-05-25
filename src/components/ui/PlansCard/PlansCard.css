@@ -1,0 +1,149 @@
+.plans-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  background-color: transparent;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-border);
+
+  width: 100%;
+
+  position: relative;
+}
+
+.plans-card-container h3 {
+  color: var(--color-text);
+  font-size: 1.25rem;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.plans-card-container.highlighted h3 {
+  color: var(--color-dark);
+}
+p.plans-card-old-price {
+  color: var(--color-text-secondary);
+  text-decoration: line-through;
+  margin-top: 1rem;
+}
+.currency {
+  color: var(--color-text-secondary);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.plans-card-container.highlighted .currency {
+  color: var(--color-dark);
+}
+
+.value {
+  color: var(--color-text);
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: var(--font-body);
+}
+
+p span.monthly {
+  color: var(--color-text-secondary);
+}
+
+.plans-card-container.highlighted .value {
+  color: var(--color-dark);
+}
+
+.plan-card-description {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 18.75rem;
+}
+.plans-card-container.highlighted .plan-card-description {
+  color: #7e7f81;
+}
+.icon-check {
+  color: var(--color-primary);
+  margin-right: 0.5rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.plans-card-container ul {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  width: 100%;
+  margin-top: 1.75rem;
+  list-style: none;
+  line-height: 1.5;
+}
+.li-items-plan-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.85rem;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.plans-card-container.highlighted .li-items-plan-card {
+  color: #7e7f81;
+}
+
+.btn-plan {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  max-width: 18.75rem;
+  margin-top: auto;
+}
+.btn-plan:hover {
+  background-color: #ccd2d948;
+  transition: 0.3s;
+}
+.btn-plan.highlighted {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  border: none;
+}
+.btn-plan.highlighted:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-dark);
+  transition: 0.3s;
+}
+
+.plans-card-container .plans-card-badge {
+  position: absolute;
+  text-transform: uppercase;
+
+  top: -0.9rem;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background-color: var(--color-primary);
+
+  color: var(--color-dark);
+
+  padding: 0.5rem 1rem;
+
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.plans-card-container.highlighted {
+  background: var(--color-text);
+  transform: scale(1.03);
+}
