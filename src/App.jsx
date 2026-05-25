@@ -3,6 +3,8 @@ import './App.css'
 import Hero from './components/Hero/Hero.jsx'
 import { Problems } from './components/Problems/Problems.jsx'
 import { Plans } from './components/Plans/Plans.jsx'
+import HowItWorks from './components/HowItWorks/HowItWorks.jsx'
+
 function App() {
 
 
@@ -13,6 +15,7 @@ function App() {
       <Hero />
       <Problems />
       <Plans />
+      <HowItWorks />
 
      </div>
     </>

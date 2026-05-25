@@ -1,0 +1,70 @@
+.howItWorksCardsSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.howItWorksCards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 16rem;
+    
+    text-align: center;
+}
+.circle-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+}
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-icon .icon-how-it-works{
+    color: var(--color-primary);
+}
+
+.howItWorksCards-container h3 {
+    font-size: 0.95rem;
+  font-weight: 700; 
+  font-family: var(--font-title);
+  color: var(--color-dark);
+  text-align: center;
+  width: 100%;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.howItWorksCards-container p {
+    font-size: 0.8rem;
+    font-family: var(--font-body);
+    color:  #57595ce9;
+   
+}
